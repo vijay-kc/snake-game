@@ -10,6 +10,8 @@ This Snake Game is a classic and addictive arcade-style game where the player co
 
 --Scoring: Each food item consumed increases your score. Try to achieve the highest score possible.
 # -- Features --
+--Level: you can change level in which speed of snake increase by increasing level.
+
 --Scoring: Keep track of your high score and try to beat it.
 
 --Responsive Design: The game adapts to different screen sizes for an optimal playing experience.
