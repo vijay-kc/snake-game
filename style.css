@@ -14,6 +14,31 @@ body {
   background:url(peakpx.jpg);
  
 }
+.level {
+  font-size: 30px;
+  color: #f4046cf3;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+#sel{
+  height: 30px;
+  width: 20px;
+  font-size: 20px;
+  background-color: transparent;
+  opacity: 0;
+  border: 2px  #cef10b;
+
+  color: #f4046cf3;
+  position: fixed;
+  top: 25px;
+  left: 110px;
+ 
+}
+option{
+  color: #f4046cf3;
+  background-color: transparent;
+}
 .wrapper {
   width: 65vmin;
   height: 70vmin;
@@ -67,6 +92,7 @@ body {
 
 @media screen and (max-width: 800px) {
   .wrapper {
+    top: 40px;
     width: 90vmin;
     height: 115vmin;
   }
