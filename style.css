@@ -78,23 +78,42 @@ option{
 
 .controls {
   display: none;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
 }
-.controls i {
-  padding: 25px 0;
-  text-align: center;
-  font-size: 1.3rem;
-  color: #11c2f3;
-  width: calc(100% / 4);
+.key{
+  width: calc(100% / 3);
+  
   cursor: pointer;
-  border-right: 3px solid #cef10b;
+  text-align: center;
+
+}
+.key i {
+
+  font-size: 1.9rem;
+  color: #11c2f3;
+}
+#dual{
+  display: flex;
+  flex-direction: column;
+}
+
+.fa-arrow-up-long{
+  border-bottom: 3px solid #cef10b;
+}
+#dual i{
+  padding:2vh 0 ;
+  text-align: center;
+  font-size: 1.9rem;
+  color: #11c2f3;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
   .wrapper {
     top: 40px;
     width: 90vmin;
-    height: 115vmin;
+    height: 105vmin;
   }
   .game-details {
     font-size: 1rem;
@@ -105,6 +124,34 @@ option{
   }
   .controls i {
     padding: 15px 0;
-    font-size: 1rem;
+    font-size: 1.9rem;
+  }
+}
+@media screen and (max-width: 620px){
+  .controls i{
+    padding: 5px 0;
+    font-size: 1.6rem;
+  } 
+  #dual i{
+    padding: 2vh 0;
+    font-size: 1.6rem;
+  } 
+  .level{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 420px){
+  .controls i{
+    padding: 5px 0;
+    font-size: 1.2rem;
+  } 
+  #dual i{
+    padding: 2vh 0;
+    font-size: 1.2rem;
+  } 
+}
+@media screen and (max-width: 320px){
+  .wrapper{
+    display: none;
   }
 }
