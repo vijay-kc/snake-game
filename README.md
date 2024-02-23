@@ -20,4 +20,6 @@ This Snake Game is a classic and addictive arcade-style game where the player co
 
 
 This Snake Game is created by [vijaykumarchaurasiya]. Feel free to contribute or modify it as you see fit.
+![image](https://github.com/vijay-kc/snake-game/assets/118093154/767295de-9b3f-4dc1-9c1a-0c19412642f5)
+
 
