@@ -14,6 +14,9 @@ body {
   background:url(peakpx.jpg);
  
 }
+.info{
+  display: none;
+}
 .level {
   font-size: 30px;
   color: #f4046cf3;
@@ -40,8 +43,8 @@ option{
   background-color: transparent;
 }
 .wrapper {
-  width: 65vmin;
-  height: 70vmin;
+  width: 70vmin;
+  height: 80vmin;
   display: flex;
   overflow: hidden;
   flex-direction: column;
@@ -112,8 +115,8 @@ option{
 @media screen and (max-width: 800px) {
   .wrapper {
     top: 40px;
-    width: 90vmin;
-    height: 105vmin;
+    width: 65vmin;
+    height: 82vmin;
   }
   .game-details {
     font-size: 1rem;
@@ -122,36 +125,60 @@ option{
   .controls {
     display: flex;
   }
+  #dual i{
+    margin: 0.5vh 0;
+    font-size: 1.5rem;
+  } 
   .controls i {
-    padding: 15px 0;
-    font-size: 1.9rem;
+    
+    font-size: 1.5rem;
   }
 }
 @media screen and (max-width: 620px){
+  .wrapper {
+    top: 30px;
+    width: 65vmin;
+    height: 90vmin;
+  }
   .controls i{
-    padding: 5px 0;
-    font-size: 1.6rem;
+    margin: 0.5vh 0;
+    font-size: 1.2rem;
   } 
   #dual i{
-    padding: 2vh 0;
-    font-size: 1.6rem;
+    margin: 0.5vh 0;
+    font-size: 1.1rem;
   } 
   .level{
     font-size: 20px;
   }
 }
 @media screen and (max-width: 420px){
+  .wrapper {
+    top: 30px;
+    width: 70vmin;
+    height: 100vmin;
+  }
   .controls i{
-    padding: 5px 0;
-    font-size: 1.2rem;
+    margin: 0.1vh 0;
+    font-size: 0.7rem;
   } 
   #dual i{
-    padding: 2vh 0;
-    font-size: 1.2rem;
+    margin: 0.1vh 0;
+    font-size: 0.7rem;
   } 
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 350px){
   .wrapper{
     display: none;
+  }
+  .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e21456;
+    font-size: 24px;
+    border: #1af1c6 3px solid;
+    padding: 5px;
+    margin: 5px;
   }
 }
